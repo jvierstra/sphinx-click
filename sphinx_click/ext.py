@@ -118,7 +118,7 @@ def _format_description(ctx):
         help_string, tab_width=4, convert_whitespace=True
     ):
         if line == '\b':
-            bar_enabled = True
+            bar_enabled = False #True
             continue
         if line == '':
             bar_enabled = False
